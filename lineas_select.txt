@@ -1,0 +1,39 @@
+<!--        <option value="0">Seleccionar..</option>
+       <option value="101" idLinea="1,2">101</option>
+       <option value="102" idLinea="3,4">102</option>
+       <option value="103" idLinea="5,6">103</option>
+       <option value="110" idLinea="11">110</option>
+       <option value="112" idLinea="12,13">112</option>
+       <option value="113" idLinea="14">113</option>
+       <option value="115" idLinea="15">115</option>
+       <option value="116" idLinea="16">116</option>
+       <option value="120" idLinea="17">120</option>
+       <option value="121" idLinea="18">121</option>
+       <option value="122" idLinea="19,20">122</option>
+       <option value="123" idLinea="21">123</option>
+       <option value="125" idLinea="22">125</option> -->
+<!--        <option value="126" idLinea="23,24">126</option> -->
+<!--        <option value="127" idLinea="25">127</option> -->
+<!--        <option value="128" idLinea="26,27">128</option> -->
+       <!-- <option value="129" idLinea="28">129</option> -->
+       <!-- <option value="130" idLinea="29">130</option> -->
+       <!-- <option value="131" idLinea="30">131</option> -->
+       <!-- <option value="132" idLinea="31">132</option> -->
+       <!-- <option value="133" idLinea="32,33">133</option> -->
+       <!-- <option value="134" idLinea="34">134</option> -->
+       <!-- <option value="135" idLinea="35">135</option> -->
+       <!-- <option value="136" idLinea="36">136</option> -->
+       <!-- <option value="137" idLinea="37">137</option> -->
+       <!-- <option value="138" idLinea="38,39">138</option> -->
+       <!-- <option value="139" idLinea="40,41">139</option> -->
+       <!-- <option value="140" idLinea="43">140</option> -->
+       <!-- <option value="141" idLinea="44">141</option> -->
+       <!-- <option value="142" idLinea="45,46,47">142</option> -->
+   <!--     <option value="143" idLinea="48,49">143</option>
+       <option value="144" idLinea="50,51">144</option>
+       <option value="145" idLinea="52,53">145</option>
+       <option value="146" idLinea="54,55">146</option>
+       <option value="153" idLinea="56,57,58">153</option>
+       <option value="K" idLinea="64">K</option>
+       <option value="LC" idLinea="65">L&iacute;nea de la Costa</option>
+       <option value="RC" idLinea="66">Ronda del Centro</option> -->

@@ -1,0 +1,572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"is_airplane_instructor"
+			],
+			[
+				"is_",
+				"is_towplane_pilot"
+			],
+			[
+				"total",
+				"total_towing_time"
+			],
+			[
+				"format_",
+				"format_title"
+			],
+			[
+				"defa",
+				"default_format"
+			],
+			[
+				"For",
+				"Format"
+			],
+			[
+				"Spread",
+				"Spreadsheet"
+			],
+			[
+				"tow",
+				"towplane_pilot_max_length"
+			],
+			[
+				"towplane",
+				"towplane_pilot"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"towplane_",
+				"towplane_pilot"
+			],
+			[
+				"towplane_pi",
+				"towplane_pilot_max_length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 69,
+		"selected_items":
+		[
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ruy",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ry",
+				"Set Syntax: Ruby"
+			],
+			[
+				"html ra",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"#",
+				"Snippet: Add ‘# =>’ Marker"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"syntax:ru",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 575
+	},
+	"console":
+	{
+		"height": 0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
+		"/home/bcb/Dropbox/rails/whenbus/lineas_select.txt",
+		"/home/bcb/Dropbox/rails/whenbus/app/controllers/buses_controller.rb",
+		"/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
+		"/home/bcb/Dropbox/rails/whenbus/Gemfile",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/mobile_boilerplate/README.markdown",
+		"/home/bcb/Dropbox/rails/whenbus/public/stylesheets/scaffold.css",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/flights.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/people.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/vertices.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/locales/es.yml",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/towplanes_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/people_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/flight.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/users.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/gliders_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/gliders.rb",
+		"/home/bcb/Dropbox/rails/cpr/public/changelog.txt",
+		"/home/bcb/Dropbox/rails/cpr/public/stylesheets/admin/active_admin.css",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/towplanes.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/airfields.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/locales/devise.es.yml",
+		"/home/bcb/Dropbox/rails/cpr/app/models/person.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/routes.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/flights_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/initializers/active_admin.rb",
+		"/home/bcb/Dropbox/rails/cpr/Gemfile",
+		"/home/bcb/Descargas/b001.sql",
+		"/home/bcb/Dropbox/rails/cpr/config/application.rb",
+		"/home/bcb/Dropbox/rails/cpr/.git/hooks/pre-commit",
+		"/home/bcb/Dropbox/rails/cpr/.git/hooks/pre-commit.sample",
+		"/home/bcb/Dropbox/rails/cpr/.git/config",
+		"/home/bcb/Dropbox/rails/cpr/app/views/towplanes/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/gliders/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/helpers/application_helper.rb",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/active_admin.js",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/dashboards.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/user.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/aircrafts_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/export/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/export.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/export_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/aircraft.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/layouts/application.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/lib/tasks/i18n_missing_keys.rake",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/application_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/vendor/plugins/facebox_render/lib/facebox_render_helper.rb",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.min.js",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.js",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/active_admin_vendor.js",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/application.js",
+		"/home/bcb/Dropbox/rails/cpr/app/views/flights/_form.html.erb",
+		"/home/bcb/Dropbox/rails/euler/2.rb",
+		"/home/bcb/Dropbox/rails/euler/1.rb",
+		"/home/bcb/Dropbox/rails/nokogiri_test.rb",
+		"/home/bcb/Dropbox/rails/mechanize_test.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/initializers/formtastic.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/environment.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/glider.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/initializers/active_admin_heroku.rb",
+		"/home/bcb/.gitconfig_old",
+		"/home/bcb/.gitconfig",
+		"/home/bcb/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/bcb/apps/Tibia/Tibia.sh",
+		"/home/bcb/Dropbox/Bruno/projects/cpr/data/VUELOS.TXT",
+		"/home/bcb/Dropbox/rails/depot/app/controllers/line_items_controller.rb"
+	],
+	"find":
+	{
+		"height": 33
+	},
+	"find_in_files":
+	{
+		"height": 0,
+		"include_history":
+		[
+		],
+		"location_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"padding",
+			"button",
+			"textarea",
+			"pilot.towed_flights.enabled",
+			"tow",
+			"aun",
+			"vuelo",
+			"per",
+			"pero",
+			"per",
+			"sidebar",
+			"dateFormat",
+			"flights.enabled",
+			"regional",
+			"year",
+			"regional",
+			"7",
+			"year",
+			"regional",
+			"ningún",
+			"july",
+			"YY-",
+			"dateFormat",
+			"format",
+			"dd-",
+			"csv"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	{
+		"mount_points":
+		[
+			"/home/bcb/Dropbox/rails/whenbus"
+		]
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1316,
+								1316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0
+	},
+	"input":
+	{
+		"height": 29
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 0,
+		"selected_items":
+		[
+		],
+		"width": 0
+	},
+	"show_minimap": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 214,
+	"status_bar_visible": true
+}

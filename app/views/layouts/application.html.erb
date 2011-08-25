@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuándo Llegará</title>
+  <%= stylesheet_link_tag 'base', 'layout', 'skeleton' %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div class="container">
+	<div class="three columns sidebar">
+		<nav>
+			<h3>...</h3>
+			<ul>
+				<li><%= link_to "Consultar", arrival_select_path %></li>
+				<li><%= link_to 'Colectivos', buses_path%></li>
+			</ul>
+		</nav>
+		&nbsp;
+	</div>
+	<div class="twelve columns content offset-by-one">
+	<header>
+		<h1>Cuándo Llegará</h1>
+		<a href="http://twitter.com/share" class="twitter-share-button" data-text="Cuándo Llegará, colectivos en Rosario, apta para móviles" data-count="horizontal" data-via="dhg">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	</header>
+<%= yield %>
+	<hr>
+	<div class="doc-section" >
+		<p class="remove-bottom" align="justify"><small>Creado por <a href="http://bonamin.com.ar">Bruno Bonamin</a>, 2011 &copy;<br />
+		Este sitio apunta a proporcionar una alternativa al <a href="http://www.etr.gov.ar/cuandollega.html" target="_blank">Cuándo Llega</a> para consultar la llegada de las líneas de colectivo de la ciudad de Rosario, en formato web más adecuado.</small></p>
+
+		<p class="remove-bottom" align="justify"><small>
+		<b>Cuándo Llegará</b> no tiene afiliación alguna con el <a href="http://www.etr.gov.ar">Ente de Transporte de Rosario</a>. </small></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
