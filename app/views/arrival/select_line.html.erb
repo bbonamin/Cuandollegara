@@ -1,7 +1,7 @@
 <div class="six columns alpha">
 	<% form_tag(arrival_find_street_path, :method => 'get') do %>
 		<h4>Paso 1 de 3</h4>
-		<p> Ingresá la línea cuya para deseás conocer.</p>
+		<p> Seleccioná la línea cuya parada deseás conocer.</p>
 		<fieldset>
 			<label for="line"> Línea </label>
 			<%= select_tag "line", options_from_collection_for_select(@buses, "line_id", "name") %> 
