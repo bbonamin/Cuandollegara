@@ -75,7 +75,7 @@
 			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 1669,
+				"buffer_size": 2154,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +83,7 @@
 			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
 			"settings":
 			{
-				"buffer_size": 1837,
+				"buffer_size": 2750,
 				"line_ending": "Unix"
 			}
 		},
@@ -425,15 +425,15 @@
 					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 1669,
+						"buffer_size": 2154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1342,
-								1342
+								559,
+								559
 							]
 						],
 						"settings":
@@ -452,15 +452,15 @@
 					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
 					"settings":
 					{
-						"buffer_size": 1837,
+						"buffer_size": 2750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								415,
-								415
+								331,
+								331
 							]
 						],
 						"settings":
@@ -468,7 +468,7 @@
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0,
-						"translation.y": 0,
+						"translation.y": 96,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -571,7 +571,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
 						"translation.y": 0,
