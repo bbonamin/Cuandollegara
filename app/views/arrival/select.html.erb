@@ -1,14 +1,13 @@
 <div class="six columns alpha">
 	<% form_tag(arrival_show_path, :method => 'get') do %>
-	<br />
 		<fieldset>
 			<label for="line"> Línea </label>
-			<%= select_tag "line", options_from_collection_for_select(@buses, "value", "name") %> 
+			<%= select_tag "line", options_from_collection_for_select(@buses, "value", "name", @line) %> 
 		</fieldset>
 
 		<fieldset>
 			<label for="stop"> Parada </label>
-			<%= number_field_tag "stop" %> <br />
+			<%= number_field_tag "stop", @stop %> <br />
 		</fieldset>
 		
 		<%= submit_tag "Consultar" %>

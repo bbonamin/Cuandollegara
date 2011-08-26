@@ -12,8 +12,8 @@
 		<nav>
 			<h3>...</h3>
 			<ul>
-				<li><%= link_to "Consultar", arrival_select_path %></li>
-				<li><%= link_to 'Colectivos', buses_path%></li>
+				<li><%= link_to "Sé la parada", arrival_select_path %></li>
+				<li><%= link_to "No sé la parada", arrival_select_line_path %></li>
 			</ul>
 		</nav>
 		&nbsp;
@@ -21,7 +21,6 @@
 	<div class="twelve columns content offset-by-one">
 	<header>
 		<h1>Cuándo Llegará</h1>
-		<a href="http://twitter.com/share" class="twitter-share-button" data-text="Cuándo Llegará, colectivos en Rosario, apta para móviles" data-count="horizontal" data-via="dhg">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	</header>
 <%= yield %>
 	<hr>
@@ -31,6 +30,13 @@
 
 		<p class="remove-bottom" align="justify"><small>
 		<b>Cuándo Llegará</b> no tiene afiliación alguna con el <a href="http://www.etr.gov.ar">Ente de Transporte de Rosario</a>. </small></p>
+		<hr>
+		<div class ="doc-section">
+			<a href="http://twitter.com/share" class="twitter-share-button" data-text="Cuándo Llegará - Llegada de colectivos en #Rosario en un formato más adecuado." data-count="horizontal" data-via="bbonamin" data-lang="es">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		</div>
+		<div class ="doc-section" style="padding-top:3px;">
+			<%= facebook_like %>
+		</div>
 		</div>
 	</div>
 </div>

@@ -13,7 +13,7 @@
 <% @buses.each do |bus| %>
   <tr>
     <td><%= bus.name %></td>
-    <td><%= bus.id_line %></td>
+    <td><%= bus.line_id %></td>
     <td><%= bus.value %></td>
     <td><%= link_to 'Show', bus %></td>
     <td><%= link_to 'Edit', edit_bus_path(bus) %></td>
