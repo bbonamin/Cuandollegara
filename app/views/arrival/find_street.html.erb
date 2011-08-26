@@ -1,0 +1,12 @@
+<div class="six columns alpha">
+	<% form_tag(arrival_find_intersection_path, :method => 'get') do %>
+		<h4>Paso 2 de 3</h4>
+		<p> Seleccioná la calle.</p>
+		<fieldset>
+			<label for="street"> Calle </label>
+			<%= select("street", "id", @streets.collect {|street| [street['desc'],street['id']]} ) %>
+			<%= hidden_field_tag "line", params[:line] %>
+		</fieldset>
+		<%= submit_tag "Buscar" %>
+	<% end %>
+</div>
