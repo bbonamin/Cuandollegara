@@ -56,26 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/application_controller.rb",
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
 			"settings":
 			{
-				"buffer_size": 637,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
-			"settings":
-			{
-				"buffer_size": 1268,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 1370,
+				"buffer_size": 415,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,15 +67,39 @@
 			"file": "/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1887,
+				"buffer_size": 2018,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 278,
+				"buffer_size": 1669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
+			"settings":
+			{
+				"buffer_size": 1837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/public/404.html",
+			"settings":
+			{
+				"buffer_size": 1773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_intersection.html.erb",
+			"settings":
+			{
+				"buffer_size": 477,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +107,7 @@
 			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 154,
+				"buffer_size": 137,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +115,23 @@
 			"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
 			"settings":
 			{
-				"buffer_size": 285,
+				"buffer_size": 1407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select_line.html.erb",
+			"settings":
+			{
+				"buffer_size": 381,
 				"line_ending": "Unix"
 			}
 		}
@@ -183,13 +207,30 @@
 	},
 	"file_history":
 	[
-		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_street.html.erb",
 		"/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select_line.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_intersection.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_stop.html.erb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/cuando_llega_getNroParada.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/buses/_form.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/buses/index.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/cuando_llega_getInterseccion.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/export.html.erb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/cuando_llega_getCalle.rb",
+		"/home/bcb/Dropbox/rails/whenbus/db/migrate/20110825222652_fix_id_line_name.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_streets.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/controllers/application_controller.rb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/nokogiri_test.rb",
 		"/home/bcb/Dropbox/rails/whenbus/lineas_select.txt",
 		"/home/bcb/Dropbox/rails/whenbus/app/controllers/buses_controller.rb",
-		"/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
 		"/home/bcb/Dropbox/rails/whenbus/Gemfile",
-		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
 		"/home/bcb/Dropbox/rails/whenbus/mobile_boilerplate/README.markdown",
 		"/home/bcb/Dropbox/rails/whenbus/public/stylesheets/scaffold.css",
 		"/home/bcb/Dropbox/rails/cpr/app/admin/flights.rb",
@@ -219,14 +260,12 @@
 		"/home/bcb/Dropbox/rails/cpr/.git/config",
 		"/home/bcb/Dropbox/rails/cpr/app/views/towplanes/filter_flights.html.erb",
 		"/home/bcb/Dropbox/rails/cpr/app/views/gliders/filter_flights.html.erb",
-		"/home/bcb/Dropbox/rails/cpr/app/views/people/filter_flights.html.erb",
 		"/home/bcb/Dropbox/rails/cpr/app/helpers/application_helper.rb",
 		"/home/bcb/Dropbox/rails/cpr/public/javascripts/active_admin.js",
 		"/home/bcb/Dropbox/rails/cpr/app/admin/dashboards.rb",
 		"/home/bcb/Dropbox/rails/cpr/app/models/user.rb",
 		"/home/bcb/Dropbox/rails/cpr/app/controllers/aircrafts_controller.rb",
 		"/home/bcb/Dropbox/rails/cpr/app/views/export/filter_flights.html.erb",
-		"/home/bcb/Dropbox/rails/cpr/app/views/people/export.html.erb",
 		"/home/bcb/Dropbox/rails/cpr/app/views/people/export_flights.html.erb",
 		"/home/bcb/Dropbox/rails/cpr/app/models/aircraft.rb",
 		"/home/bcb/Dropbox/rails/cpr/app/views/layouts/application.html.erb",
@@ -272,6 +311,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"grid",
 			"padding",
 			"button",
 			"textarea",
@@ -322,28 +362,29 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/application_controller.rb",
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
 					"settings":
 					{
-						"buffer_size": 637,
+						"buffer_size": 415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								574,
-								574
+								338,
+								338
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
 						"translation.y": 0,
@@ -353,70 +394,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
-					"settings":
-					{
-						"buffer_size": 1268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								600,
-								600
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 1370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1316,
-								1316
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 1887,
+						"buffer_size": 2018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								67,
+								67
 							]
 						],
 						"settings":
@@ -432,24 +421,78 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+					"buffer": 2,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 278,
+						"buffer_size": 1669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62,
-								62
+								1342,
+								1342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
+					"settings":
+					{
+						"buffer_size": 1837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/bcb/Dropbox/rails/whenbus/public/404.html",
+					"settings":
+					{
+						"buffer_size": 1773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1384,
+								1296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
 						"translation.y": 0,
@@ -459,18 +502,45 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_intersection.html.erb",
 					"settings":
 					{
-						"buffer_size": 154,
+						"buffer_size": 477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
 							]
 						],
 						"settings":
@@ -484,24 +554,77 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 1407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								138,
+								138
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select_line.html.erb",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0,
 						"translation.y": 0,
