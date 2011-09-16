@@ -2,11 +2,11 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
 gem 'mechanize'
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'sqlite3'
 
+gem 'devise'
+gem 'omniauth'
+gem 'oa-openid', :require => 'omniauth/openid'
 # Use unicorn as the web server
 # gem 'unicorn'
 

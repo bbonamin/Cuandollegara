@@ -19,6 +19,7 @@
 	</script>
 </head>
 <body>
+
 <div class="container">
 	<div class="three columns sidebar">
 		<nav>
@@ -29,12 +30,26 @@
 			</ul>
 		</nav>
 		&nbsp;
+		<% login_app ||= "dev" %>
+		<% if login_app=="produccion" %>
+		<div id="user_nav">
+		  <% if user_signed_in? %>
+		    Sesión iniciada como <%= current_user.email %>. ¿No es usted?
+		    <%= link_to "Cerrar sesión", destroy_user_session_path, :method => :delete %>
+		  <% else %>
+		    <%= link_to "Inicie sesión", new_user_session_path %> o <%= link_to "regístrese", new_user_registration_path %> para guardar favoritos.
+		  <% end %>
+		</div>
+		<% end %>
 	</div>
 	<div class="twelve columns content offset-by-one">
 	<header>
 		<h1>Cuándo Llegará</h1>
 	</header>
-<%= yield %>
+   		<p class="notice"><%= notice %></p>
+       	<p class="alert"><%= alert %></p>
+
+	<%= yield %>
 	<hr>
 	<div class="doc-section" >
 		<p class="remove-bottom" align="justify"><small>
