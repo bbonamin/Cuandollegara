@@ -1,4 +1,6 @@
 Whenbus::Application.routes.draw do
+  resources :favorites
+
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
 
   resources :buses, :only => []
