@@ -55,6 +55,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/arrival/select_line.html.erb",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/arrival/select.html.erb",
+			"settings":
+			{
+				"buffer_size": 415,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/arrival_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/bus.rb",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 809,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -128,6 +176,11 @@
 	},
 	"file_history":
 	[
+		"/home/bcb/dev/ruby/cuandollegara/config/initializers/devise.rb",
+		"/home/bcb/dev/ruby/cuandollegara/config/routes.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/models/favorite.rb",
+		"/home/bcb/dev/ruby/cuandollegara/db/schema.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/users/omniauth_callbacks_controller.rb",
 		"/home/bcb/Dropbox/rails/fibo.rb",
 		"/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
 		"/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
@@ -279,8 +332,171 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/arrival/select_line.html.erb",
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/arrival/select.html.erb",
+					"settings":
+					{
+						"buffer_size": 415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/arrival_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/bus.rb",
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "db/seeds.rb",
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -325,16 +541,56 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"selec",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"select",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"omni",
+				"app/controllers/users/omniauth_callbacks_controller.rb"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"calisto",
+				"/home/bcb/dev/ruby/cprsystem/calisto.sublime-project"
+			],
+			[
+				"cal",
+				"/home/bcb/dev/ruby/cuandollegara/cuandollegara.sublime-project"
+			],
+			[
+				"",
+				"/home/bcb/dev/ruby/cprsystem/cpr.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,

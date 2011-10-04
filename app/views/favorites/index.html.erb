@@ -1,27 +1,16 @@
-<h1>Listing favorites</h1>
-
-<table>
-  <tr>
-    <th>User</th>
-    <th>Bus</th>
-    <th>Stop</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<h4>Favoritos</h4>
 
 <% @favorites.each do |favorite| %>
-  <tr>
-    <td><%= favorite.user_id %></td>
-    <td><%= favorite.bus_id %></td>
-    <td><%= favorite.stop %></td>
-    <td><%= link_to 'Show', favorite %></td>
-    <td><%= link_to 'Edit', edit_favorite_path(favorite) %></td>
-    <td><%= link_to 'Destroy', favorite, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+<div style="background-color:#EEE;border-radius:10px;padding:1em 1em 1em 1em;margin: 0.3em 0.5em 0.3em 0.5em;width:300px">
+<div>
+  <b><%= favorite.user.email %></b>
+</div>
+<div>
+  Línea <%= favorite.bus.name %> -> Parada <%= favorite.stop %>
+</div>
+<small><%= link_to "Ver", {:controller => "arrival", :action => "show", :stop => favorite.stop, :line => favorite.bus.value}%> - <%= link_to 'Borrar', favorite, :confirm => 'Are you sure?', :method => :delete %></small>
+</div>
 <% end %>
-</table>
-
 <br />
 
 <%= link_to 'New Favorite', new_favorite_path %>
