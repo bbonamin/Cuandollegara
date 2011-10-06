@@ -34,6 +34,7 @@
 		  	<li><%= link_to "Favoritos", favorites_path %></li>
 		    Sesión iniciada como <%= current_user.email %>. ¿No es usted?
 		    <%= link_to "Cerrar sesión", destroy_user_session_path, :method => :delete %>
+		    <%= link_to "Editar cuenta", edit_user_registration_path(current_user) %>
 		  <% else %>
 		    <%= link_to "Inicie sesión", new_user_session_path %> o <%= link_to "regístrese", new_user_registration_path %> para guardar favoritos.
 		  <% end %>

@@ -1,5 +1,8 @@
 <div class="six columns alpha">
 	<p id="notice"><%= @llegada %> </p> <br />
+  <%if current_user %>
+  <%= link_to "Agregar a favoritos", Favorite.create(:bus_id => Bus.find_by_value(params[:line]), :stop => params[:stop], :user => current_user) %>
+  <% end %>
 	<%= link_to "Volver", :back %>
 	<br />
 </div>
