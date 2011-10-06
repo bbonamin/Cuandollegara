@@ -102,6 +102,30 @@
 				"buffer_size": 353,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "app/views/favorites/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 3203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/arrival/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -176,8 +200,9 @@
 	},
 	"file_history":
 	[
-		"/home/bcb/dev/ruby/cuandollegara/config/initializers/devise.rb",
 		"/home/bcb/dev/ruby/cuandollegara/config/routes.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/buses/index.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/config/initializers/devise.rb",
 		"/home/bcb/dev/ruby/cuandollegara/app/models/favorite.rb",
 		"/home/bcb/dev/ruby/cuandollegara/db/schema.rb",
 		"/home/bcb/dev/ruby/cuandollegara/app/controllers/users/omniauth_callbacks_controller.rb",
@@ -288,6 +313,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fieldset",
 			"grid",
 			"padding",
 			"button",
@@ -332,7 +358,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -401,8 +427,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1297,
+								1297
 							]
 						],
 						"settings":
@@ -412,7 +438,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 23.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -496,6 +522,87 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/favorites/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 3203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/arrival/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -541,6 +648,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"show",
+				"app/views/arrival/show.html.erb"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"index",
+				"app/views/favorites/index.html.erb"
+			],
 			[
 				"routes",
 				"config/routes.rb"
