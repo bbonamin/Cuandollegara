@@ -28,19 +28,18 @@
 				<li><%= link_to "Sé la parada", arrival_select_path %></li>
 				<li><%= link_to "No sé la parada", arrival_select_line_path %></li>
 			</ul>
-		</nav>
 		&nbsp;
-		<% login_app ||= "dev" %>
-		<% if login_app=="produccion" %>
 		<div id="user_nav">
 		  <% if user_signed_in? %>
+		  	<li><%= link_to "Favoritos", favorites_path %></li>
 		    Sesión iniciada como <%= current_user.email %>. ¿No es usted?
 		    <%= link_to "Cerrar sesión", destroy_user_session_path, :method => :delete %>
 		  <% else %>
 		    <%= link_to "Inicie sesión", new_user_session_path %> o <%= link_to "regístrese", new_user_registration_path %> para guardar favoritos.
 		  <% end %>
 		</div>
-		<% end %>
+		</nav>
+
 	</div>
 	<div class="twelve columns content offset-by-one">
 	<header>
