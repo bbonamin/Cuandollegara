@@ -12,15 +12,11 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :user_id %><br />
-    <%= f.text_field :user_id %>
+    <%= f.label "Colectivo" %><br />
+    <%= f.select :bus_id, options_from_collection_for_select(Bus.all, :id, :name) %>  
   </div>
   <div class="field">
-    <%= f.label :bus_id %><br />
-    <%= f.text_field :bus_id %>
-  </div>
-  <div class="field">
-    <%= f.label :stop %><br />
+    <%= f.label "Parada" %><br />
     <%= f.text_field :stop %>
   </div>
   <div class="actions">

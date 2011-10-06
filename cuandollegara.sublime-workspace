@@ -126,6 +126,22 @@
 				"buffer_size": 123,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/index.html",
+			"settings":
+			{
+				"buffer_size": 3977,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/mobile-bookmark-bubble/example/example.js",
+			"settings":
+			{
+				"buffer_size": 1836,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -200,6 +216,16 @@
 	},
 	"file_history":
 	[
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/css/style.css",
+		"/home/bcb/dev/ruby/cuandollegara/public/example.html",
+		"/home/bcb/dev/ruby/cuandollegara/public/example/example.html",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/mobile-bookmark-bubble/bookmark_bubble.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/bookmark_bubble.js",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/mobile-bookmark-bubble/example/example.js",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/wspl/README",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/demo/index.html",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/humans.txt",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/build/runbuildscript.bat",
 		"/home/bcb/dev/ruby/cuandollegara/config/routes.rb",
 		"/home/bcb/dev/ruby/cuandollegara/app/views/buses/index.html.erb",
 		"/home/bcb/dev/ruby/cuandollegara/config/initializers/devise.rb",
@@ -358,7 +384,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -603,6 +629,62 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/index.html",
+					"settings":
+					{
+						"buffer_size": 3977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3977,
+								3977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 891.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/mobile-bookmark-bubble/example/example.js",
+					"settings":
+					{
+						"buffer_size": 1836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -696,6 +778,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"cali",
+				"/home/bcb/dev/ruby/cprsystem/calisto.sublime-project"
+			],
 			[
 				"calisto",
 				"/home/bcb/dev/ruby/cprsystem/calisto.sublime-project"

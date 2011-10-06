@@ -1,8 +1,9 @@
 class FavoritesController < ApplicationController
+  before_filter :authenticate_user!
   # GET /favorites
   # GET /favorites.xml
   def index
-    @favorites = Favorite.all
+    @favorites = current_user.favorites
 
     respond_to do |format|
       format.html # index.html.erb
@@ -41,7 +42,8 @@ class FavoritesController < ApplicationController
   # POST /favorites.xml
   def create
     @favorite = Favorite.new(params[:favorite])
-
+    @favorite.user = current_user
+    
     respond_to do |format|
       if @favorite.save
         format.html { redirect_to(@favorite, :notice => 'Favorite was successfully created.') }
