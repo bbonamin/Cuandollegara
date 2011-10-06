@@ -46,7 +46,7 @@ class FavoritesController < ApplicationController
     
     respond_to do |format|
       if @favorite.save
-        format.html { redirect_to(@favorite, :notice => 'Favorite was successfully created.') }
+        format.html { redirect_to(favorites_path, :notice => 'Favorite was successfully created.') }
         format.xml  { render :xml => @favorite, :status => :created, :location => @favorite }
       else
         format.html { render :action => "new" }
