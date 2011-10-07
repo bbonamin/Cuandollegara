@@ -1,0 +1,13 @@
+<h4>Favoritos</h4>
+
+<% @favorites.each do |favorite| %>
+<div style="background-color:#EEE;border-radius:10px;padding:1em 1em 1em 1em;margin: 0.3em 0.5em 0.3em 0.5em;width:200px">
+<div>
+  Línea <%= favorite.bus.name %> -> Parada <%= favorite.stop %>
+</div>
+<small><%= link_to "Ver", {:controller => "arrival", :action => "show", :stop => favorite.stop, :line => favorite.bus.value}%> - <%= link_to 'Borrar', favorite, :confirm => 'Are you sure?', :method => :delete %></small>
+</div>
+<% end %>
+<br />
+
+<%= link_to 'New Favorite', new_favorite_path %>
