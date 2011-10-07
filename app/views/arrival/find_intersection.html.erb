@@ -1,13 +1,26 @@
-<div class="six columns alpha">
-	<% form_tag(arrival_find_stop_path, :method => 'get') do %>
-		<h4>Paso 3 de 3</h4>
-		<p>Seleccioná la intersección. </p>
-		<fieldset>
-			<label for="intersection"> Intersección </label>
-			<%= select("intersection", "id", @intersections.collect {|street| [street['desc'],street['id']]} ) %>
-			<%= hidden_field_tag "line", params[:line] %>
-			<%= hidden_field_tag "street", @street%>
-		</fieldset>
-		<%= submit_tag "Buscar" %>
-	<% end %>
+<div class="page-header">
+<h1>No sé la parada <small>Buscar por intersección de calles.</small></h1>
+</div>
+
+<div class="row">
+  <div class="span16">
+		<% form_tag(arrival_find_stop_path, :method => 'get') do %>
+			<fieldset>
+				<legend>Paso 3 de 3</legend>
+				<div class="clearfix">
+					<label for="intersection"> Intersección </label>
+					<div class="input">
+						<%= select("intersection", "id", @intersections.collect {|street| [street['desc'],street['id']]} ) %>
+						<span class="help-block">Seleccioná la segunda calle de la intersección</span>
+					</div>
+				</div>
+				<%= hidden_field_tag "line", params[:line] %>
+				<%= hidden_field_tag "street", @street%>
+
+				<div class="actions">
+					<%= submit_tag "Buscar", :class => "btn primary" %>
+				</div>
+			</fieldset>
+		<% end %>
+	</div>
 </div>

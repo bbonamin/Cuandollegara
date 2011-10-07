@@ -6,11 +6,10 @@ class ApplicationController < ActionController::Base
   MOBILE_BROWSERS = ["android", "ipod", "opera mini", "blackberry", "palm","hiptop","avantgo","plucker", "xiino","blazer","elaine", "windows ce; ppc;", "windows ce; smartphone;","windows ce; iemobile", "up.browser","up.link","mmp","symbian","smartphone", "midp","wap","vodafone","o2","pocket","kindle", "mobile","pda","psp","treo"]
 
   def detect_browser
-    # agent = request.headers["HTTP_USER_AGENT"].downcase
-    # MOBILE_BROWSERS.each do |m|
-    #   return "mobile" if agent.match(m)
-    # end
-    # return "application"
+    agent = request.headers["HTTP_USER_AGENT"].downcase
+    MOBILE_BROWSERS.each do |m|
+      return "mobile" if agent.match(m)
+    end
     return "layout_new"
   end
 end

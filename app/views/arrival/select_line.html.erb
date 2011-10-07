@@ -1,41 +1,22 @@
-<div class="six columns alpha">
-	<% form_tag(arrival_find_street_path, :method => 'get') do %>
-		<h4>Paso 1 de 3</h4>
-		<p> Seleccioná la línea cuya parada deseás conocer.</p>
-		<fieldset>
-			<label for="line"> Línea </label>
-			<%= select_tag "line", options_from_collection_for_select(@buses, "line_id", "name") %> 
-		</fieldset>
-		
-		<%= submit_tag "Buscar" %>
-	<% end %>
-</div>
-
 <div class="page-header">
-<h1>Paso 1 de 3 <small>Buscar parada por intersección.</small></h1>
+<h1>No sé la parada <small>Buscar por intersección de calles.</small></h1>
 </div>
 
 <div class="row">
   <div class="span16">
-		<% form_tag(arrival_show_path, :method => 'get') do %>
+		<% form_tag(arrival_find_street_path, :method => 'get') do %>
 			<fieldset>
 				<legend>Paso 1 de 3</legend>
 				<div class="clearfix">
 					<label for="line"> Línea </label>
 					<div class ="input">
-						<%= select_tag "line", options_from_collection_for_select(@buses, "value", "name", @line), :class => "medium" %> 
+						<%= select_tag "line", options_from_collection_for_select(@buses, "line_id", "name"), :class => "medium" %> 
+						<span class="help-block">Seleccioná la línea cuya parada deseás conocer.</span>
 					</div>
 				</div>
 
-				<div class="clearfix">
-					<label for="stop"> Parada </label>
-					<div class="input">
-						<%= number_field_tag "stop", @stop %>
-					</div>
-				</div>
-				
 				<div class="actions">
-					<%= submit_tag "Consultar", :class =>"btn primary" %>
+					<%= submit_tag "Buscar", :class =>"btn primary" %>
 				</div>
 			</fieldset>
 		<% end %>
