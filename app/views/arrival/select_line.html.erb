@@ -10,3 +10,34 @@
 		<%= submit_tag "Buscar" %>
 	<% end %>
 </div>
+
+<div class="page-header">
+<h1>Paso 1 de 3 <small>Buscar parada por intersección.</small></h1>
+</div>
+
+<div class="row">
+  <div class="span16">
+		<% form_tag(arrival_show_path, :method => 'get') do %>
+			<fieldset>
+				<legend>Paso 1 de 3</legend>
+				<div class="clearfix">
+					<label for="line"> Línea </label>
+					<div class ="input">
+						<%= select_tag "line", options_from_collection_for_select(@buses, "value", "name", @line), :class => "medium" %> 
+					</div>
+				</div>
+
+				<div class="clearfix">
+					<label for="stop"> Parada </label>
+					<div class="input">
+						<%= number_field_tag "stop", @stop %>
+					</div>
+				</div>
+				
+				<div class="actions">
+					<%= submit_tag "Consultar", :class =>"btn primary" %>
+				</div>
+			</fieldset>
+		<% end %>
+  </div>
+</div>
