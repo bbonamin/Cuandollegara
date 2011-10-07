@@ -1,15 +1,30 @@
-<div class="six columns alpha">
-	<% form_tag(arrival_show_path, :method => 'get') do %>
-		<fieldset>
-			<label for="line"> Línea </label>
-			<%= select_tag "line", options_from_collection_for_select(@buses, "value", "name", @line) %> 
-		</fieldset>
+<div class="page-header">
+<h1>Sé la parada <small>Seleccioná la línea y parada que ya conocés.</small></h1>
+</div>
 
-		<fieldset>
-			<label for="stop"> Parada </label>
-			<%= number_field_tag "stop", @stop %> <br />
-		</fieldset>
-		
-		<%= submit_tag "Consultar" %>
-	<% end %>
+<div class="row">
+  <div class="span16">
+		<% form_tag(arrival_show_path, :method => 'get') do %>
+			<fieldset>
+				<legend>Adelante.</legend>
+				<div class="clearfix">
+					<label for="line"> Línea </label>
+					<div class ="input">
+						<%= select_tag "line", options_from_collection_for_select(@buses, "value", "name", @line), :class => "medium" %> 
+					</div>
+				</div>
+
+				<div class="clearfix">
+					<label for="stop"> Parada </label>
+					<div class="input">
+						<%= number_field_tag "stop", @stop %>
+					</div>
+				</div>
+				
+				<div class="actions">
+					<%= submit_tag "Consultar", :class =>"btn primary" %>
+				</div>
+			</fieldset>
+		<% end %>
+  </div>
 </div>
