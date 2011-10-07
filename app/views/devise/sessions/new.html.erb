@@ -1,16 +1,41 @@
-<h2>Iniciar sesión</h2>
-<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email %></div>
+<div class="page-header">
+<h1>Iniciar sesión</h1>
+</div>
 
-  <div><%= f.label :password, "Contraseña" %><br />
-  <%= f.password_field :password %></div>
+<div class="row">
+  <div class="span8">
+    <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+      <fieldset>
+        <div class="clearfix">
+          <%= f.label :email %>
+          <div class="input">
+            <%= f.email_field :email %>
+          </div>
+        </div>
 
-  <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me, "Recordar usuario" %></div>
-  <% end -%>
+        <div class="clearfix">
+          <%= f.label :password, "Contraseña" %>
+          <div class="input">
+            <%= f.password_field :password %>
+          </div>
+        </div>
 
-  <div><%= f.submit "Iniciar sesión" %></div>
-<% end %>
+        <% if devise_mapping.rememberable? -%>
+          <div class="clearfix">
+            <div class="input">
+              <%= f.check_box :remember_me %> <span>Recordar usuario</span>
+            </div>
+          </div>
+        <% end -%>
 
-<%= render :partial => "devise/shared/links" %>
+        <div class="actions">
+          <%= f.submit "Iniciar sesión", :class =>"btn primary" %>
+        </div>
+      </fieldset>
+    <% end %>
+
+  </div>
+  <div class="span4">
+    <%= render :partial => "devise/shared/links" %>
+  </div>
+</div>
