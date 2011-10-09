@@ -4,7 +4,7 @@
 
 <div class="row">
   <div class="span8">
-    <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => {:class=> "form-stacked" }) do |f| %>
       <fieldset>
         <%= devise_error_messages! %>
 
@@ -23,7 +23,7 @@
         </div>
 
         <div class="clearfix">
-          <%= f.label :password_confirmation, "Confirmación" %>
+          <%= f.label :password_confirmation, "Confirmar contraseña" %>
           <div class="input">
             <%= f.password_field :password_confirmation %>
           </div>

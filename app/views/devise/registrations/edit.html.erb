@@ -1,25 +1,52 @@
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
+<div class="page-header">
+<h1>Editar usuario <small>Actualizá tu contraseña o borrá tu cuenta.</small></h1>
+</div>
 
-<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
-  <%= devise_error_messages! %>
+<div class="row">
+  <div class="span14">
+    <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class=> "form-stacked" }) do |f| %>
+      <%= devise_error_messages! %>
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email %></div>
+      <fieldset>
+        <div class="clearfix">
+          <%= f.label :email %>
+          <div class ="input">
+            <%= f.email_field :email %></div>
+          </div>
+        <%if current_user.account_type == 'facebook' %>
+          <div class="clearfix">
+            <%= f.label :password, " Nueva contraseña" %> 
+            <div class ="input">
+              <%= f.password_field :password %></div>
+            </div>
 
-  <div><%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
-  <%= f.password_field :password %></div>
+          <div class="clearfix">
+            <%= f.label :password_confirmation, "Confirmar contraseña" %>
+            <div class ="input">
+              <%= f.password_field :password_confirmation %></div>
+            </div>
 
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
+          <div class="clearfix">
+            <%= f.label :current_password, "Contraseña actual" %>
+            <div class ="input">
+              <%= f.password_field :current_password %></div>
+            </div>
+          <% else %>
+           <p>Cuenta creada con Facebook.</p>
+          <% end %>
+        <div class="actions">
+          <%= f.submit "Actualizar", :class => "btn primary" %>
+          <%= link_to "Volver", :back, :class => "btn small" %>
+        </div>
+      </fieldset>
+      <% end %>
+  </div>
+</div><br>
 
-  <div><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-  <%= f.password_field :current_password %></div>
+<div class="page-footer">
+<h1>Cancelar mi cuenta </h1>
 
-  <div><%= f.submit "Update" %></div>
-<% end %>
+<p>¿No te convenció? <%= link_to "Eliminar tu cuenta", registration_path(resource_name), :confirm => "Are you sure?", :method => :delete %>.</p>
 
-<h3>Cancel my account</h3>
-
-<p>Unhappy? <%= link_to "Cancel my account", registration_path(resource_name), :confirm => "Are you sure?", :method => :delete %>.</p>
-
-<%= link_to "Back", :back %>
+<br><br>
+</div>

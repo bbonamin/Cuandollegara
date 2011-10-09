@@ -1,13 +1,22 @@
-<h4>Favoritos</h4>
+<div class="page-header">
+<h1>Favoritos</small></h1>
+</div>
 
-<% @favorites.each do |favorite| %>
-<div style="background-color:#EEE;border-radius:10px;padding:1em 1em 1em 1em;margin: 0.3em 0.5em 0.3em 0.5em;width:200px">
-<div>
-  Línea <%= favorite.bus.name %> -> Parada <%= favorite.stop %>
-</div>
-<small><%= link_to "Ver", {:controller => "arrival", :action => "show", :stop => favorite.stop, :line => favorite.bus.value}%> - <%= link_to 'Borrar', favorite, :confirm => 'Are you sure?', :method => :delete %></small>
-</div>
+<div class="row">
+    <div class="span12">
+<% unless @favorites.count == 0 %>
+    <% @favorites.each do |favorite| %>
+      <div style="background-color:#EEE;border-radius:10px;padding:1em 1em 1em 1em;margin: 0.3em 0.5em 0.3em 0.5em;width:200px"
+      onclick="window.location = '<%= url_for :controller => "arrival", :action => "show", :stop => favorite.stop, :line => favorite.bus.value %>'">
+      <div>
+        Línea <%= favorite.bus.name %> -> Parada <%= favorite.stop %>
+      </div>
+      <small><%= link_to "Ver", {:controller => "arrival", :action => "show", :stop => favorite.stop, :line => favorite.bus.value}%> - <%= link_to 'Borrar', favorite, :confirm => 'Are you sure?', :method => :delete %></small>
+      </div>
+      <% end %>
+      <br>
+<% else %>
+    <p><%=link_to "Consulta una línea en una parada", arrival_select_path %> para agregarla a favoritos.</p>
 <% end %>
-<br />
-
-<%= link_to 'New Favorite', new_favorite_path %>
+  </div>
+</div>
