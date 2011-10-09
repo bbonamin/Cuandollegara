@@ -1,6 +1,6 @@
 # Corrected by Eloy Serra Labán: http://goo.gl/i9Kts, /nQ928, /XfKaX
 
-es-AR:
+es:
   number:
     percentage:
       format:
@@ -203,7 +203,14 @@ es-AR:
         odd: "debe ser un número non"
 
   activerecord:
+
     errors:
+      models:
+        user:
+          attributes:
+            current_password:
+              blank:  "La contraseña actual no puede estar vacía"
+              invalid:  "La contraseña actual es incorrecta"
       template:
         header:
           one: "%{model} no pudo guardarse debido a 1 error"

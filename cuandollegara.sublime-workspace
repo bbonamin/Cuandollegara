@@ -1,0 +1,764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"is_airplane_instructor"
+			],
+			[
+				"is_",
+				"is_towplane_pilot"
+			],
+			[
+				"total",
+				"total_towing_time"
+			],
+			[
+				"format_",
+				"format_title"
+			],
+			[
+				"defa",
+				"default_format"
+			],
+			[
+				"For",
+				"Format"
+			],
+			[
+				"Spread",
+				"Spreadsheet"
+			],
+			[
+				"tow",
+				"towplane_pilot_max_length"
+			],
+			[
+				"towplane",
+				"towplane_pilot"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"towplane_",
+				"towplane_pilot"
+			],
+			[
+				"towplane_pi",
+				"towplane_pilot_max_length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/devise/registrations/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 1066,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/sessions/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 1053,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/layout_new.html.erb",
+			"settings":
+			{
+				"buffer_size": 4903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/arrival/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/arrival_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"page-header\">\n<h1>Favoritos</small></h1>\n</div>\n\n<% @favorites.each do |favorite| %>\n<div class=\"row\">\n    <div class=\"span12\">\n      <div style=\"background-color:#EEE;border-radius:10px;padding:1em 1em 1em 1em;margin: 0.3em 0.5em 0.3em 0.5em;width:200px\"\n      onclick=\"window.location = '<%= url_for :controller => \"arrival\", :action => \"show\", :stop => favorite.stop, :line => favorite.bus.value %>'\">\n      <div>\n        Línea <%= favorite.bus.name %> -> Parada <%= favorite.stop %>\n      </div>\n      <small><%= link_to \"Ver\", {:controller => \"arrival\", :action => \"show\", :stop => favorite.stop, :line => favorite.bus.value}%> - <%= link_to 'Borrar', favorite, :confirm => 'Are you sure?', :method => :delete %></small>\n      </div>\n      <% end %>\n  </div>\n</div>",
+			"file": "app/views/favorites/index.html.erb",
+			"file_size": 683,
+			"file_write_time": 1318106117000000,
+			"settings":
+			{
+				"buffer_size": 782,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 183.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ruy",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ry",
+				"Set Syntax: Ruby"
+			],
+			[
+				"html ra",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"#",
+				"Snippet: Add ‘# =>’ Marker"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"syntax:ru",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/select.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/public/stylesheets/bootstrap.css",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/devise/shared/_links.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/favorites/index.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/mobile.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/mobile_new.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/arrival_controller.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/layout_new.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/application.html.erb",
+		"/home/bcb/Escritorio/twitter-bootstrap-356227e/examples/container-app.html",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/show.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/application_controller.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/find_intersection.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/select_line.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/find_street.html.erb",
+		"/home/bcb/Escritorio/twitter-bootstrap-356227e/bootstrap.css",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/mobile_old.html.erb",
+		"/home/bcb/Escritorio/twitter-bootstrap-356227e/README.md",
+		"/home/bcb/dev/ruby/cuandollegara/config/routes.rb",
+		"/home/bcb/dev/ruby/cuandollegara/config/initializers/devise.rb",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/css/style.css",
+		"/home/bcb/dev/ruby/cuandollegara/app/models/favorite.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/models/user.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/favorites_controller.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/helpers/application_helper.rb",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/index.html",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/controls.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/application.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/tabs.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/rails.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/plugins.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/effects.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/dragdrop.js",
+		"/home/bcb/.config/sublime-text-2/Packages/Rails/validates_uniqueness_of-if-(vuif).sublime-snippet",
+		"/home/bcb/dev/ruby/cprsystem/app/views/flights/_form.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/favorites/_form.html.erb",
+		"/home/bcb/.config/sublime-text-2/Packages/Rails/link_to-model.sublime-snippet",
+		"/home/bcb/dev/ruby/cuandollegara/db/seeds.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/models/bus.rb",
+		"/home/bcb/.config/sublime-text-2/Packages/Rails/link_to-(path).sublime-snippet",
+		"/home/bcb/.config/sublime-text-2/Packages/Rails/link_to-(nested-path-plural).sublime-snippet",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/mobile-bookmark-bubble/example/example.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/example.html",
+		"/home/bcb/dev/ruby/cuandollegara/public/example/example.html",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/mobile-bookmark-bubble/bookmark_bubble.js",
+		"/home/bcb/dev/ruby/cuandollegara/public/javascripts/bookmark_bubble.js",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/tools/wspl/README",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/demo/index.html",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/humans.txt",
+		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/build/runbuildscript.bat",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/buses/index.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/db/schema.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/home/bcb/Dropbox/rails/fibo.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/layouts/mobile.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/layouts/application.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select_line.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/helpers/application_helper.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/controllers/arrival_controller.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/show.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_intersection.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/public/404.html",
+		"/home/bcb/Dropbox/rails/whenbus/config/routes.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/select.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_street.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_stop.html.erb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/cuando_llega_getNroParada.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/buses/_form.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/buses/index.html.erb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/cuando_llega_getInterseccion.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/export.html.erb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/cuando_llega_getCalle.rb",
+		"/home/bcb/Dropbox/rails/whenbus/db/migrate/20110825222652_fix_id_line_name.rb",
+		"/home/bcb/Dropbox/rails/whenbus/app/views/arrival/find_streets.html.erb",
+		"/home/bcb/Dropbox/rails/whenbus/app/controllers/application_controller.rb",
+		"/home/bcb/Dropbox/rails/colectivos_scripts_mechanize/nokogiri_test.rb",
+		"/home/bcb/Dropbox/rails/whenbus/lineas_select.txt",
+		"/home/bcb/Dropbox/rails/whenbus/app/controllers/buses_controller.rb",
+		"/home/bcb/Dropbox/rails/whenbus/Gemfile",
+		"/home/bcb/Dropbox/rails/whenbus/mobile_boilerplate/README.markdown",
+		"/home/bcb/Dropbox/rails/whenbus/public/stylesheets/scaffold.css",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/flights.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/people.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/vertices.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/locales/es.yml",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/towplanes_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/people_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/flight.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/users.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/gliders_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/gliders.rb",
+		"/home/bcb/Dropbox/rails/cpr/public/changelog.txt",
+		"/home/bcb/Dropbox/rails/cpr/public/stylesheets/admin/active_admin.css",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/towplanes.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/airfields.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/locales/devise.es.yml",
+		"/home/bcb/Dropbox/rails/cpr/app/models/person.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/routes.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/flights_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/config/initializers/active_admin.rb",
+		"/home/bcb/Dropbox/rails/cpr/Gemfile",
+		"/home/bcb/Descargas/b001.sql",
+		"/home/bcb/Dropbox/rails/cpr/config/application.rb",
+		"/home/bcb/Dropbox/rails/cpr/.git/hooks/pre-commit",
+		"/home/bcb/Dropbox/rails/cpr/.git/hooks/pre-commit.sample",
+		"/home/bcb/Dropbox/rails/cpr/.git/config",
+		"/home/bcb/Dropbox/rails/cpr/app/views/towplanes/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/gliders/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/helpers/application_helper.rb",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/active_admin.js",
+		"/home/bcb/Dropbox/rails/cpr/app/admin/dashboards.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/user.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/aircrafts_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/export/filter_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/people/export_flights.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/app/models/aircraft.rb",
+		"/home/bcb/Dropbox/rails/cpr/app/views/layouts/application.html.erb",
+		"/home/bcb/Dropbox/rails/cpr/lib/tasks/i18n_missing_keys.rake",
+		"/home/bcb/Dropbox/rails/cpr/app/controllers/application_controller.rb",
+		"/home/bcb/Dropbox/rails/cpr/vendor/plugins/facebox_render/lib/facebox_render_helper.rb",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.min.js",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.js",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/active_admin_vendor.js",
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/application.js",
+		"/home/bcb/Dropbox/rails/cpr/app/views/flights/_form.html.erb",
+		"/home/bcb/Dropbox/rails/euler/2.rb",
+		"/home/bcb/Dropbox/rails/euler/1.rb"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"include_history":
+		[
+		],
+		"location_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"940",
+			"h2",
+			".js",
+			"fieldset",
+			"grid",
+			"padding",
+			"button",
+			"textarea",
+			"pilot.towed_flights.enabled",
+			"tow",
+			"aun",
+			"vuelo",
+			"per",
+			"pero",
+			"per",
+			"sidebar",
+			"dateFormat",
+			"flights.enabled",
+			"regional",
+			"year",
+			"regional",
+			"7",
+			"year",
+			"regional",
+			"ningún",
+			"july",
+			"YY-",
+			"dateFormat",
+			"format",
+			"dd-",
+			"csv"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/devise/registrations/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 1066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/devise/sessions/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 1053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/layout_new.html.erb",
+					"settings":
+					{
+						"buffer_size": 4903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2506,
+								2506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 870.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/arrival/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/arrival_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2.0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/favorites/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"app/views/favorites/index.html.erb"
+			],
+			[
+				"arrival",
+				"app/controllers/arrival_controller.rb"
+			],
+			[
+				"show",
+				"app/views/arrival/show.html.erb"
+			],
+			[
+				"_l",
+				"app/views/devise/shared/_links.erb"
+			],
+			[
+				"bootstr",
+				"public/stylesheets/bootstrap.css"
+			],
+			[
+				"sessionnew",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"bootst",
+				"public/stylesheets/bootstrap.css"
+			],
+			[
+				"appl",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"arriv",
+				"app/controllers/arrival_controller.rb"
+			],
+			[
+				"find_stre",
+				"app/views/arrival/find_street.html.erb"
+			],
+			[
+				"application_con",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"sele",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"selec",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"contro",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"control",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"mobi",
+				"app/views/layouts/mobile.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"help",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"favorite",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"arriva",
+				"app/controllers/arrival_controller.rb"
+			],
+			[
+				"favorites_co",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"seel",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"_form",
+				"app/views/favorites/_form.html.erb"
+			],
+			[
+				"favori",
+				"app/controllers/favorites_controller.rb"
+			],
+			[
+				"favo",
+				"app/models/favorite.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"select",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"omni",
+				"app/controllers/users/omniauth_callbacks_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"cali",
+				"/home/bcb/dev/ruby/cprsystem/calisto.sublime-project"
+			],
+			[
+				"calisto",
+				"/home/bcb/dev/ruby/cprsystem/calisto.sublime-project"
+			],
+			[
+				"cal",
+				"/home/bcb/dev/ruby/cuandollegara/cuandollegara.sublime-project"
+			],
+			[
+				"",
+				"/home/bcb/dev/ruby/cprsystem/cpr.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true
+}

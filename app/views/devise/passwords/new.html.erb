@@ -1,12 +1,28 @@
-<h2>Forgot your password?</h2>
+<div class="page-header">
+<h1>¿Olvidaste tu contraseña?</h1>
+</div>
 
-<%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post }) do |f| %>
-  <%= devise_error_messages! %>
+<div class="row">
+  <div class="span8">
+    <%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post, :class => "form-stacked" }) do |f| %>
+      
+    <%= devise_error_messages! %>
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email %></div>
+    <fieldset>
+      <div class="clearfix">
+        <%= f.label :email %>
+        <div class="input">
+          <%= f.email_field :email %>
+        </div>
+      </div>
 
-  <div><%= f.submit "Send me reset password instructions" %></div>
+      <div class="actions">
+        <%= f.submit "Restablecer contraseña", :class => "btn primary" %>
+      </div>
+    </fieldset>
 <% end %>
-
-<%= render :partial => "devise/shared/links" %>
+  </div>
+  <div class="span4">
+  <%= render :partial => "devise/shared/links" %>
+  </div>
+</div>
