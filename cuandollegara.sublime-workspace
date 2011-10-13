@@ -56,10 +56,34 @@
 	"buffers":
 	[
 		{
+			"file": "app/views/arrival/select.html.erb",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/registrations/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 1752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/locales/es.yml",
+			"settings":
+			{
+				"buffer_size": 5485,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/views/devise/registrations/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 1066,
+				"buffer_size": 1111,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +91,55 @@
 			"file": "app/views/devise/sessions/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 1053,
+				"buffer_size": 1090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/passwords/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/passwords/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 932,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/mailer/reset_password_instructions.html.erb",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 910,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/initializers/devise.rb",
+			"settings":
+			{
+				"buffer_size": 10325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 2145,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +147,15 @@
 			"file": "app/views/layouts/layout_new.html.erb",
 			"settings":
 			{
-				"buffer_size": 4903,
+				"buffer_size": 6145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/favorites/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 962,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,26 +163,23 @@
 			"file": "app/views/arrival/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 480,
+				"buffer_size": 459,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/arrival_controller.rb",
+			"file": "public/stylesheets/bootstrap.css",
 			"settings":
 			{
-				"buffer_size": 1336,
+				"buffer_size": 54140,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<div class=\"page-header\">\n<h1>Favoritos</small></h1>\n</div>\n\n<% @favorites.each do |favorite| %>\n<div class=\"row\">\n    <div class=\"span12\">\n      <div style=\"background-color:#EEE;border-radius:10px;padding:1em 1em 1em 1em;margin: 0.3em 0.5em 0.3em 0.5em;width:200px\"\n      onclick=\"window.location = '<%= url_for :controller => \"arrival\", :action => \"show\", :stop => favorite.stop, :line => favorite.bus.value %>'\">\n      <div>\n        Línea <%= favorite.bus.name %> -> Parada <%= favorite.stop %>\n      </div>\n      <small><%= link_to \"Ver\", {:controller => \"arrival\", :action => \"show\", :stop => favorite.stop, :line => favorite.bus.value}%> - <%= link_to 'Borrar', favorite, :confirm => 'Are you sure?', :method => :delete %></small>\n      </div>\n      <% end %>\n  </div>\n</div>",
-			"file": "app/views/favorites/index.html.erb",
-			"file_size": 683,
-			"file_write_time": 1318106117000000,
+			"file": "app/views/layouts/mobile_new.html.erb",
 			"settings":
 			{
-				"buffer_size": 782,
+				"buffer_size": 4719,
 				"line_ending": "Unix"
 			}
 		}
@@ -183,21 +260,28 @@
 	},
 	"file_history":
 	[
+		"/home/bcb/dev/ruby/cuandollegara/app/views/user/registrations/edit.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/application_controller.rb",
+		"/home/bcb/dev/ruby/cuandollegara/config/application.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/devise/mailer/unlock_instructions.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/user/mailer/reset_password_instructions.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/models/user.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/find_intersection.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/find_street.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/select_line.html.erb",
 		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/select.html.erb",
 		"/home/bcb/dev/ruby/cuandollegara/public/stylesheets/bootstrap.css",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/devise/shared/_links.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/application.html.erb",
 		"/home/bcb/dev/ruby/cuandollegara/app/views/favorites/index.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/controllers/arrival_controller.rb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/show.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/layout_new.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/devise/sessions/new.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/devise/registrations/new.html.erb",
+		"/home/bcb/dev/ruby/cuandollegara/app/views/devise/shared/_links.erb",
 		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/mobile.html.erb",
 		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/mobile_new.html.erb",
-		"/home/bcb/dev/ruby/cuandollegara/app/controllers/arrival_controller.rb",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/layout_new.html.erb",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/application.html.erb",
 		"/home/bcb/Escritorio/twitter-bootstrap-356227e/examples/container-app.html",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/show.html.erb",
-		"/home/bcb/dev/ruby/cuandollegara/app/controllers/application_controller.rb",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/find_intersection.html.erb",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/select_line.html.erb",
-		"/home/bcb/dev/ruby/cuandollegara/app/views/arrival/find_street.html.erb",
 		"/home/bcb/Escritorio/twitter-bootstrap-356227e/bootstrap.css",
 		"/home/bcb/dev/ruby/cuandollegara/app/views/layouts/mobile_old.html.erb",
 		"/home/bcb/Escritorio/twitter-bootstrap-356227e/README.md",
@@ -205,7 +289,6 @@
 		"/home/bcb/dev/ruby/cuandollegara/config/initializers/devise.rb",
 		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/css/style.css",
 		"/home/bcb/dev/ruby/cuandollegara/app/models/favorite.rb",
-		"/home/bcb/dev/ruby/cuandollegara/app/models/user.rb",
 		"/home/bcb/dev/ruby/cuandollegara/app/controllers/favorites_controller.rb",
 		"/home/bcb/dev/ruby/cuandollegara/app/helpers/application_helper.rb",
 		"/home/bcb/Escritorio/shichuan-mobile-html5-boilerplate-05399c4/index.html",
@@ -304,13 +387,7 @@
 		"/home/bcb/Dropbox/rails/cpr/lib/tasks/i18n_missing_keys.rake",
 		"/home/bcb/Dropbox/rails/cpr/app/controllers/application_controller.rb",
 		"/home/bcb/Dropbox/rails/cpr/vendor/plugins/facebox_render/lib/facebox_render_helper.rb",
-		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.min.js",
-		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.js",
-		"/home/bcb/Dropbox/rails/cpr/public/javascripts/active_admin_vendor.js",
-		"/home/bcb/Dropbox/rails/cpr/public/javascripts/application.js",
-		"/home/bcb/Dropbox/rails/cpr/app/views/flights/_form.html.erb",
-		"/home/bcb/Dropbox/rails/euler/2.rb",
-		"/home/bcb/Dropbox/rails/euler/1.rb"
+		"/home/bcb/Dropbox/rails/cpr/public/javascripts/jquery-ui.min.js"
 	],
 	"find":
 	{
@@ -331,6 +408,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<div class=\"inp",
+			"<br />",
+			"<div",
+			"mailer",
+			"<div",
+			"<br />",
+			"<div>",
+			"</small>",
+			"<small>",
+			"class =\"doc-section\"",
+			"class=\"remove-bottom\" ",
 			"940",
 			"h2",
 			".js",
@@ -384,23 +472,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/devise/registrations/new.html.erb",
+					"file": "app/views/arrival/select.html.erb",
 					"settings":
 					{
-						"buffer_size": 1066,
+						"buffer_size": 840,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								282
+								206,
+								231
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -410,23 +499,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/devise/sessions/new.html.erb",
+					"file": "app/views/devise/registrations/edit.html.erb",
 					"settings":
 					{
-						"buffer_size": 1053,
+						"buffer_size": 1752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1254,
+								1254
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -436,52 +527,52 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/layouts/layout_new.html.erb",
+					"file": "config/locales/es.yml",
 					"settings":
 					{
-						"buffer_size": 4903,
+						"buffer_size": 5485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2506,
-								2506
+								4835,
+								4835
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2.0,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 870.0,
+						"translation.y": 3118.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/arrival/show.html.erb",
+					"file": "app/views/devise/registrations/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 480,
+						"buffer_size": 1111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								78
+								287,
+								287
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2.0,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -492,46 +583,46 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/controllers/arrival_controller.rb",
+					"file": "app/views/devise/sessions/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 1336,
+						"buffer_size": 1090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								97,
+								58
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2.0,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/views/favorites/index.html.erb",
+					"file": "app/views/devise/passwords/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 782,
+						"buffer_size": 711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								251,
-								251
+								711,
+								589
 							]
 						],
 						"settings":
@@ -540,6 +631,286 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/devise/passwords/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							],
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/devise/mailer/reset_password_instructions.html.erb",
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/initializers/devise.rb",
+					"settings":
+					{
+						"buffer_size": 10325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1122.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 2145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1830,
+								1830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/layouts/layout_new.html.erb",
+					"settings":
+					{
+						"buffer_size": 6145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5767,
+								5767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2193.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/views/favorites/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/views/arrival/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "public/stylesheets/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 54140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4791,
+								4818
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4950.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/views/layouts/mobile_new.html.erb",
+					"settings":
+					{
+						"buffer_size": 4719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2353,
+								2353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -589,16 +960,88 @@
 		"selected_items":
 		[
 			[
-				"index",
-				"app/views/favorites/index.html.erb"
+				"mobile",
+				"app/views/layouts/mobile_new.html.erb"
 			],
 			[
-				"arrival",
-				"app/controllers/arrival_controller.rb"
+				"boot",
+				"public/stylesheets/bootstrap.css"
 			],
 			[
 				"show",
 				"app/views/arrival/show.html.erb"
+			],
+			[
+				"index",
+				"app/views/favorites/index.html.erb"
+			],
+			[
+				"lay",
+				"app/views/layouts/layout_new.html.erb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"produ",
+				"config/environments/production.rb"
+			],
+			[
+				"devi",
+				"config/initializers/devise.rb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"pass",
+				"app/views/user/mailer/reset_password_instructions.html.erb"
+			],
+			[
+				"email",
+				"app/views/devise/mailer/reset_password_instructions.html.erb"
+			],
+			[
+				"password",
+				"app/views/devise/passwords/new.html.erb"
+			],
+			[
+				"session",
+				"app/views/devise/sessions/new.html.erb"
+			],
+			[
+				"sign",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"es.",
+				"config/locales/es.yml"
+			],
+			[
+				"selec",
+				"app/views/arrival/select.html.erb"
+			],
+			[
+				"find_inte",
+				"app/views/arrival/find_intersection.html.erb"
+			],
+			[
+				"find_stree",
+				"app/views/arrival/find_street.html.erb"
+			],
+			[
+				"select",
+				"app/views/arrival/select_line.html.erb"
+			],
+			[
+				"boots",
+				"public/stylesheets/bootstrap.css"
+			],
+			[
+				"arrival",
+				"app/controllers/arrival_controller.rb"
 			],
 			[
 				"_l",
@@ -611,10 +1054,6 @@
 			[
 				"sessionnew",
 				"app/views/devise/sessions/new.html.erb"
-			],
-			[
-				"appli",
-				"app/controllers/application_controller.rb"
 			],
 			[
 				"bootst",
@@ -638,10 +1077,6 @@
 			],
 			[
 				"sele",
-				"app/views/arrival/select.html.erb"
-			],
-			[
-				"selec",
 				"app/views/arrival/select.html.erb"
 			],
 			[
@@ -671,10 +1106,6 @@
 			[
 				"help",
 				"app/helpers/application_helper.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
 			],
 			[
 				"favorite",
@@ -717,14 +1148,6 @@
 				"db/schema.rb"
 			],
 			[
-				"select",
-				"app/views/arrival/select.html.erb"
-			],
-			[
-				"devi",
-				"config/initializers/devise.rb"
-			],
-			[
 				"omni",
 				"app/controllers/users/omniauth_callbacks_controller.rb"
 			]
@@ -759,6 +1182,6 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 214.0,
+	"side_bar_width": 404.0,
 	"status_bar_visible": true
 }
