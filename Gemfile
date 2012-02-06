@@ -1,12 +1,14 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '3.0.11'
 gem 'mechanize'
 gem 'sqlite3'
 
 gem 'devise'
 gem 'omniauth'
 gem 'oa-openid', :require => 'omniauth/openid'
+gem 'simple-navigation'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
